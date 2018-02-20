@@ -21,7 +21,7 @@ public String Executer(String command) {
 
 	            String line = "";
 				while ((line = reader.readLine())!= null) {
-					output.append(line + "n");
+					output.append(line + "/n");
 				}
 
 			} catch (Exception e) {
